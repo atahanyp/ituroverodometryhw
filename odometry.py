@@ -3,8 +3,7 @@ from sensor_msgs.msg import Imu
 from nav_msgs.msg import Odometry
 from geometry_msgs.msg import Quaternion
 from tf.transformations import euler_from_quaternion, quaternion_from_euler
-from std_msgs.msg import Float64MultiArray
-from math import cos, sin
+from std_msgs.msg import Float64MultiArray                                                                                                
 import math
 class OdometryCalculator:
     def __init__(self):
